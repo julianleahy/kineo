@@ -1052,7 +1052,7 @@ body {
 .menu-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 300;
   line-height: 1.2;
@@ -1065,7 +1065,7 @@ body {
 .menu-item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1078,7 +1078,7 @@ body {
 .page-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 300;
   line-height: 1.2;
@@ -1104,7 +1104,7 @@ body {
 .article-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1117,7 +1117,7 @@ body {
 .block-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1130,7 +1130,7 @@ body {
 .component-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1143,7 +1143,7 @@ body {
 .notify-popup-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1156,7 +1156,7 @@ body {
 .item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -1169,7 +1169,7 @@ body {
 .sub-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLightItalic", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -1183,7 +1183,7 @@ body {
   line-height: 20.4px;
 }
 .drawer-title {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -1978,7 +1978,7 @@ body {
 .accordion-component .accordion-item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -3273,7 +3273,7 @@ button[disabled="disabled"] {
   border-right: 5px solid #0d1113;
 }
 .drawer .drawer-item .drawer-item-title {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -3867,7 +3867,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .hotgraphic-component .hotgraphic-content-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -4406,7 +4406,7 @@ html.accessibility.touch .narrative-control-right.focus {
   width: 200px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -4893,7 +4893,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .narrative-component .narrative-content-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -5037,7 +5037,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .narrative-component .narrative-strapline-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -5694,7 +5694,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-bottom: 1px solid #2d3940;
 }
 .search-extension .search-title {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "ExpertSansLight", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
