@@ -38,7 +38,7 @@
   padding: 17px 20px;
 }
 .skip-nav-link {
-  background-color: #333333;
+  background-color: #00aeef;
   border-radius: 0;
   color: #ffffff;
   display: none;
@@ -911,7 +911,7 @@ button {
   margin-left: 5%;
 }
 .boxmenu-menu .menu-item-inner {
-  background: #ffffff;
+  background: #eff0f2;
   padding-bottom: 20px;
   position: relative;
 }
@@ -929,12 +929,12 @@ button {
 }
 .boxmenu-menu .menu-item-button a {
   text-decoration: none;
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   padding: 14px;
 }
 .boxmenu-menu .menu-item-button a:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #fff;
 }
 .boxmenu-menu .menu-item-button a.visited {
@@ -2937,8 +2937,8 @@ button {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
-  background-color: #333333;
-  border: 0px solid #333333;
+  background-color: #00aeef;
+  border: 0px solid #00aeef;
   color: #ffffff;
   display: inline-block;
   min-height: 55px;
@@ -2954,7 +2954,7 @@ button {
 }
 .no-touch .button:hover,
 .no-touch button:hover {
-  background-color: #000000;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -3037,14 +3037,14 @@ button[disabled="disabled"] {
   float: right;
 }
 .buttons .buttons-display {
-  border: 0px solid #333333;
+  border: 0px solid #00aeef;
   background-color: #37474f;
   border-top: none;
   color: #ffffff;
   position: relative;
 }
 .buttons .buttons-marking-icon {
-  border: 0px solid #333333;
+  border: 0px solid #00aeef;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   color: #ffffff;
@@ -3203,7 +3203,7 @@ button[disabled="disabled"] {
   transition: background-color 0.2s ease-in;
 }
 .no-touch .drawer .drawer-toolbar .drawer-close-button:hover .icon {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3248,7 +3248,7 @@ button[disabled="disabled"] {
   transition: background-color 0.2s ease-in;
 }
 .no-touch .drawer .drawer-toolbar .drawer-back-button:hover .icon {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3291,7 +3291,7 @@ button[disabled="disabled"] {
   width: auto;
 }
 .no-touch .drawer .drawer-item .drawer-item-open:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -3724,17 +3724,17 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .hint-extension .hint-extension-widget {
-  background-color: #ffffff;
+  background-color: #eff0f2;
 }
 .ie8 .hint-extension .hint-extension-widget {
-  border: 2px solid #e6e6e6;
+  border: 2px solid #d3d6db;
 }
 .hint-extension .hint-extension-item:nth-child(even) {
-  background-color: #e6e6e6;
+  background-color: #d3d6db;
 }
 .ie8 .hint-extension .hint-extension-item.item-1,
 .ie8 .hint-extension .hint-extension-item.item-3 {
-  background-color: #e6e6e6;
+  background-color: #d3d6db;
 }
 .hotgraphic-component .hotgraphic-graphic img {
   width: 100%;
@@ -3767,7 +3767,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #f26c4f;
 }
 .hotgraphic-component .hotgraphic-popup {
-  background-color: #ffffff;
+  background-color: #eff0f2;
   border: 3px #00aeef solid;
   color: #26292a;
 }
@@ -3966,7 +3966,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-radius: 50%;
 }
 .no-touch .hotgraphic-component .hotgraphic-popup-controls:not(.disabled):hover {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3981,7 +3981,7 @@ html.accessibility.touch .narrative-control-right.focus {
   transition: color 0.2s ease-in;
 }
 .no-touch .hotgraphic-component .hotgraphic-popup-done:hover .hotgraphic-popup-close {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -4435,7 +4435,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .matching-component .matching-item-title {
   margin-bottom: 0;
   padding: 20px;
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .matching-component .matching-select-container {
@@ -4869,7 +4869,7 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 0;
 }
 .no-touch .media-component .media-transcript:hover {
-  background-color: #000000;
+  background-color: #001923;
   color: #ffffff;
 }
 .narrative-component .narrative-content-title {
@@ -4992,7 +4992,7 @@ html.accessibility.touch .narrative-control-right.focus {
   animation-timing-function: ease-in-out;
 }
 .narrative-component .narrative-progress {
-  background-color: #cccccc;
+  background-color: #b7bbc4;
   border: inherit;
 }
 .narrative-component .narrative-progress.selected {
@@ -5135,7 +5135,7 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 20px;
 }
 .no-touch .navigation .icon:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5224,7 +5224,7 @@ html.accessibility.touch .narrative-control-right.focus {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
-  background-color: #333333;
+  background-color: #00aeef;
   border: none;
   color: #ffffff;
   display: inline-block;
@@ -5238,7 +5238,7 @@ html.accessibility.touch .narrative-control-right.focus {
   }
 }
 .no-touch .notify .notify-popup-button:hover {
-  background-color: #000000;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5258,7 +5258,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .notify .notify-popup-done:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5340,10 +5340,10 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .notify-push-close .icon:hover {
-  background-color: #333333;
+  background-color: #00aeef;
 }
 .page {
-  background-color: #ffffff;
+  background-color: #eff0f2;
 }
 .page .page-header {
   background-color: #37474f;
@@ -5490,7 +5490,7 @@ html.accessibility.touch .narrative-control-right.focus {
   right: 9px;
 }
 .no-touch .page-level-progress-navigation.base:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5537,7 +5537,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5665,7 +5665,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .resources .resources-filter button:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5698,7 +5698,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .search-extension .result-title:hover {
-  background-color: #333333;
+  background-color: #00aeef;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5814,7 +5814,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #00aeef;
 }
 .slider-widget .slider-holder .rangeslider {
-  background-color: #ffffff;
+  background-color: #eff0f2;
 }
 .accessibility .slider-widget .slider-holder input[type="range"]:focus + .rangeslider .rangeslider__handle {
   outline: 3px solid orange;
@@ -6005,7 +6005,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-left-color: #f26c4f;
 }
 .tabs-component .tabs-content-items {
-  background: #ffffff;
+  background: #eff0f2;
   border: 1px #00aeef solid;
   max-height: 400px;
   min-height: 400px;
@@ -6195,28 +6195,28 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 0;
 }
 .trickle-button-component.trickle-round-arrow button {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   transition: none;
 }
 .no-touch .trickle-button-component.trickle-round-arrow button:hover {
-  background-color: #000000;
+  background-color: #006489;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
 }
 .trickle-button-component.trickle-full-width.trickle-round-arrow .trickle-button-inner.locking button {
-  background-color: #333333;
+  background-color: #00aeef;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   transition: none;
 }
 .no-touch .trickle-button-component.trickle-full-width.trickle-round-arrow .trickle-button-inner.locking button:hover {
-  background-color: #000000;
+  background-color: #006489;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
