@@ -23,6 +23,7 @@
 @import 'src/theme/adapt-kineo-theme/less/src/component.less';
 @import 'src/theme/adapt-kineo-theme/less/src/drawer.less';
 @import 'src/theme/adapt-kineo-theme/less/src/focus.less';
+@import 'src/theme/adapt-kineo-theme/less/src/fonts.less';
 @import 'src/theme/adapt-kineo-theme/less/src/gmcq.less';
 @import 'src/theme/adapt-kineo-theme/less/src/graphic.less';
 @import 'src/theme/adapt-kineo-theme/less/src/hint.less';
