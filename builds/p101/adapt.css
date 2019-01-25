@@ -812,8 +812,8 @@ button {
 }
 .mcq-widget.disabled .mcq-item label.disabled {
   color: #ffffff;
-  background-color: #727272;
-  border-color: #727272;
+  background-color: #caced1;
+  border-color: #caced1;
   cursor: default;
 }
 .mcq-widget.disabled .mcq-item.correct .selected .state {
@@ -832,13 +832,13 @@ button {
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label.disabled {
   color: #ffffff;
-  background-color: #727272;
-  border-color: #727272;
+  background-color: #caced1;
+  border-color: #caced1;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label.disabled:hover {
   color: #ffffff;
-  background-color: #727272;
-  border-color: #727272;
+  background-color: #caced1;
+  border-color: #caced1;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label.disabled .mcq-item-icon {
   color: #ffffff;
@@ -2651,14 +2651,14 @@ body {
 .article-reveal-close-button.disabled .article-reveal-open-button-icon,
 .article-reveal-open-button.disabled .article-reveal-close-button-icon,
 .article-reveal-close-button.disabled .article-reveal-close-button-icon {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .article-reveal-open-button.disabled:hover .article-reveal-open-button-icon,
 .no-touch .article-reveal-close-button.disabled:hover .article-reveal-open-button-icon,
 .no-touch .article-reveal-open-button.disabled:hover .article-reveal-close-button-icon,
 .no-touch .article-reveal-close-button.disabled:hover .article-reveal-close-button-icon {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .article-block-slider-enabled.article .article-inner {
@@ -2773,11 +2773,11 @@ body {
   animation-timing-function: ease-in-out;
 }
 .article-block-slider-enabled .item-button-arrow[disabled="disabled"] {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .article-block-slider-enabled .item-button-arrow[disabled="disabled"]:hover {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .article-block-slider-enabled .item-button:hover .item-button-inner {
@@ -2806,11 +2806,11 @@ body {
   background-color: #cc310f;
 }
 .article-block-slider-enabled .item-button[disabled="disabled"] .item-button-inner {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .article-block-slider-enabled .item-button[disabled="disabled"] .item-button-inner:hover {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .article-block-slider-enabled .item-button-inner {
@@ -2982,7 +2982,7 @@ button.base {
 }
 .button.disabled,
 button.disabled {
-  background-color: #727272 !important;
+  background-color: #caced1 !important;
   border-color: #c5c5c5;
   color: #ffffff !important;
   cursor: default;
@@ -2993,7 +2993,7 @@ button.disabled {
 }
 .button:disabled,
 button:disabled {
-  background-color: #727272 !important;
+  background-color: #caced1 !important;
   border-color: #c5c5c5;
   color: #ffffff !important;
   cursor: default;
@@ -3004,7 +3004,7 @@ button:disabled {
 }
 .button[disabled="disabled"],
 button[disabled="disabled"] {
-  background-color: #727272 !important;
+  background-color: #caced1 !important;
   border-color: #c5c5c5;
   color: #ffffff !important;
   cursor: default;
@@ -3501,10 +3501,10 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #26292a;
 }
 .gmcq-component .gmcq-item label.disabled .gmcq-item-icon {
-  color: #727272;
+  color: #caced1;
 }
 .gmcq-component .gmcq-item label.disabled .gmcq-item-inner {
-  color: #727272;
+  color: #caced1;
 }
 .gmcq-component .gmcq-item-inner {
   color: #00aeef;
@@ -3600,7 +3600,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .gmcq-component .gmcq-widget.disabled .gmcq-item label.disabled {
   background-color: transparent;
   border: none;
-  color: #727272;
+  color: #caced1;
   cursor: default;
 }
 .no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover {
@@ -4521,7 +4521,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .matching-component .matching-widget.submitted .matching-select-container {
-  background-color: #727272;
+  background-color: #caced1;
 }
 .no-touch .matching-select-icon:hover {
   color: #ffffff;
@@ -4549,7 +4549,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .ie8 .matching-select-container.disabled {
-  background-color: #727272;
+  background-color: #caced1;
 }
 .select2-container--default span.select2-dropdown,
 .dir-rtl .select2-container--default span.select2-dropdown {
@@ -4628,7 +4628,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .dir-rtl .select2-container--default.select2-container--disabled span.select2-selection--single,
 .no-touch .select2-container--default.select2-container--disabled span.select2-selection--single:hover,
 .no-touch .dir-rtl .select2-container--default.select2-container--disabled span.select2-selection--single:hover {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .matching-item.correct .select2-container--default.select2-container--disabled span.select2-selection--single,
@@ -4796,8 +4796,8 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .mcq-widget.disabled .mcq-item label.disabled {
-  background-color: #727272;
-  border-color: #727272;
+  background-color: #caced1;
+  border-color: #caced1;
   color: #ffffff;
   cursor: default;
 }
@@ -4848,11 +4848,11 @@ html.accessibility.touch .narrative-control-right.focus {
   transition: border-color 0.2s ease-in;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label.disabled {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label.disabled:hover {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5552,7 +5552,7 @@ html.accessibility.touch .narrative-control-right.focus {
   transition: border-color 0.2s ease-in;
 }
 .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title.disabled {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
   cursor: default;
 }
@@ -5560,7 +5560,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 1px solid #ffffff;
 }
 .no-touch .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title.disabled:hover {
-  background-color: #727272;
+  background-color: #caced1;
   color: #ffffff;
 }
 .no-touch .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title.disabled:hover .page-level-progress-indicator {
