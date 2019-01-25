@@ -8,30 +8,30 @@
 // Responsive Widths
 // ==================================================
 .responsive-large {
-	@media (min-width: @device-width-large) {
-		margin: 0 auto;
-		width: @device-width-large;
-	}
+  @media (min-width: @device-width-large) {
+    margin: 0 auto;
+    width: @device-width-large;
+  }
 }
 
 .responsive-medium {
-	@media (max-width: @device-width-medium) and (min-width: @device-width-small) {
-		margin: 0 auto;
-		width: @device-width-small;
-	}
+  @media (max-width: @device-width-medium) and (min-width: @device-width-small) {
+    margin: 0 auto;
+    width: @device-width-small;
+  }
 }
 
 .responsive-small {
-	@media (max-width: (@device-width-small - 1px)) {
-		margin: 0 auto;
-		width: 100%;
-	}
+  @media (max-width: (@device-width-small - 1px)) {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .responsive-layout {
-	.responsive-large;
-	.responsive-medium;
-	.responsive-small;
+  .responsive-large;
+  .responsive-medium;
+  .responsive-small;
 }
 
 // Variables
@@ -82,7 +82,6 @@
 @item-text-visited-color: #fff;
 @item-text-selected-color: #fff;
 
-
 // Item padding
 // ============
 
@@ -92,7 +91,6 @@
 // @item-padding-left: 10px;
 
 // @item-padding: @item-padding-top @item-padding-right @item-padding-bottom @item-padding-left;
-
 
 // Item border
 // ===========
@@ -106,18 +104,15 @@
 @item-border-selected-color: @primary-color;
 //@item-border: @item-border-width @item-border-style @primary-color;
 
-
 // // focus
 // // =====
 
 // @focus-outline: 1px dashed #454545;
 
-
 // Item spacing
 // ============
 
 @item-spacing: 2px;
-
 
 // Button
 // ======
@@ -144,7 +139,6 @@
 
 // @button-margin: @button-margin-top @button-margin-right @button-margin-bottom @button-margin-left;
 
-
 // Border
 // ======
 
@@ -154,7 +148,6 @@
 @button-border-hover-color: #c5c5c5;
 @button-border-disabled-color: #c5c5c5;
 @button-border: @button-border-width @button-border-style @button-border-color;
-
 
 // Device widths
 // =============
@@ -175,7 +168,8 @@
 @menu-title-padding-sides: 30px;
 @menu-title-padding-bottom: 30px;
 
-@menu-title-padding: @menu-title-padding-top @menu-title-padding-sides @menu-title-padding-bottom;
+@menu-title-padding: @menu-title-padding-top @menu-title-padding-sides
+  @menu-title-padding-bottom;
 
 // @page-title-padding-top: 50px;
 // @page-title-padding-sides: 10px;
@@ -199,8 +193,8 @@
 @component-title-padding-sides: 0px;
 @component-title-padding-bottom: 0px;
 
-@component-title-padding: @component-title-padding-top @component-title-padding-sides @component-title-padding-bottom;
-
+@component-title-padding: @component-title-padding-top
+  @component-title-padding-sides @component-title-padding-bottom;
 
 // Title margins
 // =============
@@ -209,32 +203,36 @@
 @menu-title-margin-sides: 30px;
 @menu-title-margin-bottom: 30px;
 
-@menu-title-margin: @menu-title-margin-top @menu-title-margin-sides @menu-title-margin-bottom;
+@menu-title-margin: @menu-title-margin-top @menu-title-margin-sides
+  @menu-title-margin-bottom;
 
 @page-title-margin-top: 10px;
 @page-title-margin-sides: 10px;
 @page-title-margin-bottom: 10px;
 
-@page-title-margin: @page-title-margin-top @page-title-margin-sides @page-title-margin-bottom;
+@page-title-margin: @page-title-margin-top @page-title-margin-sides
+  @page-title-margin-bottom;
 
 @article-title-margin-top: 10px;
 @article-title-margin-sides: 10px;
 // @article-title-margin-bottom: 10px;
 
-@article-title-margin: @article-title-margin-top @article-title-margin-sides @article-title-margin-bottom;
+@article-title-margin: @article-title-margin-top @article-title-margin-sides
+  @article-title-margin-bottom;
 
 @block-title-margin-top: 0px;
 @block-title-margin-sides: 0px;
 // @block-title-margin-bottom: 0px;
 
-@block-title-margin: @block-title-margin-top @block-title-margin-sides @block-title-margin-bottom;
+@block-title-margin: @block-title-margin-top @block-title-margin-sides
+  @block-title-margin-bottom;
 
 @component-title-margin-top: 30px;
 @component-title-margin-sides: 0px;
 // @component-title-margin-bottom: 0px;
 
-@component-title-margin: @component-title-margin-top @component-title-margin-sides @component-title-margin-bottom;
-
+@component-title-margin: @component-title-margin-top
+  @component-title-margin-sides @component-title-margin-bottom;
 
 // Body paddings
 // =============
@@ -243,32 +241,36 @@
 @menu-body-padding-sides: 30px;
 @menu-body-padding-bottom: 0px;
 
-@menu-body-padding: @menu-body-padding-top @menu-body-padding-sides @menu-body-padding-bottom;
+@menu-body-padding: @menu-body-padding-top @menu-body-padding-sides
+  @menu-body-padding-bottom;
 
 @page-body-padding-top: 10px;
 @page-body-padding-sides: 10px;
 @page-body-padding-bottom: 10px;
 
-@page-body-padding: @page-body-padding-top @page-body-padding-sides @page-body-padding-bottom;
+@page-body-padding: @page-body-padding-top @page-body-padding-sides
+  @page-body-padding-bottom;
 
 @article-body-padding-top: 10px;
 @article-body-padding-sides: 20px;
 @article-body-padding-bottom: 40px;
 
-@article-body-padding: @article-body-padding-top @article-body-padding-sides @article-body-padding-bottom;
+@article-body-padding: @article-body-padding-top @article-body-padding-sides
+  @article-body-padding-bottom;
 
 @block-body-padding-top: 0px;
 @block-body-padding-sides: 0px;
 @block-body-padding-bottom: 0px;
 
-@block-body-padding: @block-body-padding-top @block-body-padding-sides @block-body-padding-bottom;
+@block-body-padding: @block-body-padding-top @block-body-padding-sides
+  @block-body-padding-bottom;
 
 @component-body-padding-top: 0px;
 @component-body-padding-sides: 0px;
 @component-body-padding-bottom: 0px;
 
-@component-body-padding: @component-body-padding-top @component-body-padding-sides @component-body-padding-bottom;
-
+@component-body-padding: @component-body-padding-top
+  @component-body-padding-sides @component-body-padding-bottom;
 
 // Body margins
 // ============
@@ -277,32 +279,36 @@
 @menu-body-margin-sides: 10px;
 @menu-body-margin-bottom: 10px;
 
-@menu-body-margin: @menu-body-margin-top @menu-body-margin-sides @menu-body-margin-bottom;
+@menu-body-margin: @menu-body-margin-top @menu-body-margin-sides
+  @menu-body-margin-bottom;
 
 @page-body-margin-top: 10px;
 @page-body-margin-sides: 10px;
 @page-body-margin-bottom: 10px;
 
-@page-body-margin: @page-body-margin-top @page-body-margin-sides @page-body-margin-bottom;
+@page-body-margin: @page-body-margin-top @page-body-margin-sides
+  @page-body-margin-bottom;
 
 // @article-body-margin-top: 10px;
 @article-body-margin-sides: 10px;
 // @article-body-margin-bottom: 10px;
 
-@article-body-margin: @article-body-margin-top @article-body-margin-sides @article-body-margin-bottom;
+@article-body-margin: @article-body-margin-top @article-body-margin-sides
+  @article-body-margin-bottom;
 
 // @block-body-margin-top: 10px;
 @block-body-margin-sides: 10px;
 // @block-body-margin-bottom: 10px;
 
-@block-body-margin: @block-body-margin-top @block-body-margin-sides @block-body-margin-bottom;
+@block-body-margin: @block-body-margin-top @block-body-margin-sides
+  @block-body-margin-bottom;
 
 // @component-body-margin-top: 20px;
 @component-body-margin-sides: 0px;
 // @component-body-margin-bottom: 20px;
 
-@component-body-margin: @component-body-margin-top @component-body-margin-sides @component-body-margin-bottom;
-
+@component-body-margin: @component-body-margin-top @component-body-margin-sides
+  @component-body-margin-bottom;
 
 // Instruction padding
 // ===================
@@ -311,8 +317,8 @@
 @component-instruction-padding-sides: 0px;
 @component-instruction-padding-bottom: 0px;
 
-@component-instruction-padding: @component-instruction-padding-top @component-instruction-padding-sides @component-instruction-padding-bottom;
-
+@component-instruction-padding: @component-instruction-padding-top
+  @component-instruction-padding-sides @component-instruction-padding-bottom;
 
 // Instruction margin
 // ==================
@@ -321,7 +327,8 @@
 @component-instruction-margin-sides: 0px;
 // @component-instruction-padding-bottom: 20px;
 
-@component-instruction-margin: @component-instruction-margin-top @component-instruction-margin-sides @component-instruction-padding-bottom;
+@component-instruction-margin: @component-instruction-margin-top
+  @component-instruction-margin-sides @component-instruction-padding-bottom;
 
 // Navigation
 // ==========
@@ -333,13 +340,13 @@
 @navigation-border-width: 1px;
 @navigation-border-style: solid;
 @navigation-border-color: darken(@navigation-color, 10%);
-@navigation-border: @navigation-border-width @navigation-border-style @navigation-border-color;
+@navigation-border: @navigation-border-width @navigation-border-style
+  @navigation-border-color;
 
 @navigation-height: 60px;
 @navigation-height-mobile: 50px;
 // @navigation-padding: ((@navigation-height - @icon-size)/2);
 @navigation-padding-mobile: ((@navigation-height-mobile - @icon-size)/2);
-
 
 // Drawer
 // ======
@@ -361,8 +368,8 @@
 // @drawer-item-padding-bottom: 10px;
 // @drawer-item-padding-left: 10px;
 
-@drawer-item-padding: @drawer-item-padding-top @drawer-item-padding-right @drawer-item-padding-bottom @drawer-item-padding-left;
-
+@drawer-item-padding: @drawer-item-padding-top @drawer-item-padding-right
+  @drawer-item-padding-bottom @drawer-item-padding-left;
 
 // Notify
 // ======
@@ -383,8 +390,8 @@
 @notify-popup-padding-bottom: 30px;
 @notify-popup-padding-left: 30px;
 
-@notify-popup-padding: @notify-popup-padding-top @notify-popup-padding-right @notify-popup-padding-bottom @notify-popup-padding-left;
-
+@notify-popup-padding: @notify-popup-padding-top @notify-popup-padding-right
+  @notify-popup-padding-bottom @notify-popup-padding-left;
 
 // Fonts
 // =====
@@ -399,20 +406,12 @@
 // @font-weight-normal: 400;
 // @font-weight-bold: 700;
 
-
 // // Icons
 // // =====
 
 // @icon-size: 24px;
-@icon-correct-color: #51FB66;
-@icon-incorrect-color: #F14E4E;
-
-
-
-
-
-
-
+@icon-correct-color: #51fb66;
+@icon-incorrect-color: #f14e4e;
 
 // Detailed Color setup (V2 Vanilla)
 // =================================
@@ -448,10 +447,16 @@
 @navigation-icon-color-hover: darken(@navigation-icon-color, 40%); // done
 
 @navigation-progress-color: @navigation-icon-color; // done
-@navigation-progress-color-hover: darken(@navigation-progress-color, 40%); // done
+@navigation-progress-color-hover: darken(
+  @navigation-progress-color,
+  40%
+); // done
 
 @navigation-progress-background-color: @navigation-color; // done
-@navigation-progress-background-color-hover: darken(@navigation-color, 40%); // done
+@navigation-progress-background-color-hover: darken(
+  @navigation-color,
+  40%
+); // done
 
 @navigation-progress-border-color: @navigation-icon-color; // done
 
@@ -480,12 +485,18 @@
 @drawer-progress-color: @drawer-item-text-color; // done
 @drawer-progress-color-hover: darken(@drawer-progress-color, 40%); // done
 @drawer-progress-background-color: darken(@drawer-item-color, 20%); // done
-@drawer-progress-background-color-disabled: darken(@drawer-item-color, 40%); // done
+@drawer-progress-background-color-disabled: darken(
+  @drawer-item-color,
+  40%
+); // done
 
 @drawer-progress-border-color: darken(@drawer-item-color, 20%); // done
 
 // Components
-@component-background-color: darken(@background-color, 10%); // done -not used anywhere
+@component-background-color: darken(
+  @background-color,
+  10%
+); // done -not used anywhere
 
 @item-color: @primary-color; // done
 @item-color-hover: darken(@item-color, 20%); // done
@@ -508,7 +519,6 @@
 @item-border-color-disabled: @item-color-disabled; // done
 @item-border-color-visited: @item-color-visited; // done
 @item-border-color-selected: @item-color-selected; // done
-
 
 // Results
 @results-background-color: @primary-color; // done

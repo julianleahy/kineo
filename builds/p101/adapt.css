@@ -4693,26 +4693,26 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 3px solid #ffffff;
 }
 .mcq-component .mcq-item label.selected {
-  background-color: #006489;
+  background-color: #0089bc;
   color: #ffffff;
 }
 .palette-01 .mcq-component .mcq-item label.selected {
-  background-color: #287777;
+  background-color: #359d9d;
 }
 .palette-02 .mcq-component .mcq-item label.selected {
-  background-color: #920d47;
+  background-color: #c0125e;
 }
 .palette-03 .mcq-component .mcq-item label.selected {
-  background-color: #00627c;
+  background-color: #008aaf;
 }
 .palette-04 .mcq-component .mcq-item label.selected {
-  background-color: #3b0d28;
+  background-color: #651645;
 }
 .palette-05 .mcq-component .mcq-item label.selected {
-  background-color: #5d7d22;
+  background-color: #7aa42e;
 }
 .palette-06 .mcq-component .mcq-item label.selected {
-  background-color: #cc310f;
+  background-color: #ee4420;
 }
 .mcq-component .mcq-item label.selected .mcq-answer-icon {
   color: #ffffff;
@@ -4808,7 +4808,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #f26c4f;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #006489;
+  background-color: #0089bc;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -4816,22 +4816,22 @@ html.accessibility.touch .narrative-control-right.focus {
   transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
 }
 .palette-01.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #287777;
+  background-color: #359d9d;
 }
 .palette-02.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #920d47;
+  background-color: #c0125e;
 }
 .palette-03.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #00627c;
+  background-color: #008aaf;
 }
 .palette-04.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #3b0d28;
+  background-color: #651645;
 }
 .palette-05.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #5d7d22;
+  background-color: #7aa42e;
 }
 .palette-06.no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #cc310f;
+  background-color: #ee4420;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover .mcq-item-icon {
   color: none;
