@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300, 400, 700);
 .responsive-layout {
   width: 100%;
   margin: 0 auto;
@@ -38,7 +38,7 @@
   padding: 17px 20px;
 }
 .skip-nav-link {
-  background-color: #424242;
+  background-color: #333333;
   border-radius: 0;
   color: #ffffff;
   display: none;
@@ -691,7 +691,7 @@ button {
   line-height: 1em;
 }
 .mcq-component .mcq-item {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   position: relative;
 }
 .mcq-component .mcq-item label {
@@ -700,7 +700,7 @@ button {
   margin-bottom: 2px;
   position: relative;
   z-index: 1;
-  background-color: #44c1bf;
+  background-color: #00aeef;
   cursor: pointer;
 }
 .mcq-component .mcq-item label .mcq-answer-icon {
@@ -726,8 +726,8 @@ button {
 }
 .mcq-component .mcq-item label.selected {
   color: #ffffff;
-  background-color: #287776;
-  border-color: #287776;
+  background-color: #006489;
+  border-color: #006489;
 }
 .mcq-component .mcq-item label.selected .mcq-answer-icon.radio:before {
   content: "\e65d";
@@ -806,8 +806,8 @@ button {
 }
 .mcq-widget.disabled .mcq-item label.selected.disabled {
   color: #ffffff;
-  background-color: #287776;
-  border-color: #287776;
+  background-color: #006489;
+  border-color: #006489;
   cursor: default;
 }
 .mcq-widget.disabled .mcq-item label.disabled {
@@ -824,8 +824,8 @@ button {
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
   color: #ffffff;
-  background-color: #287776;
-  border-color: #287776;
+  background-color: #006489;
+  border-color: #006489;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover .mcq-item-icon {
   color: #ffffff;
@@ -844,7 +844,7 @@ button {
   color: #ffffff;
 }
 .boxmenu-menu {
-  background: #44c1bf;
+  background: #00aeef;
 }
 @media (min-width: 900px) {
   .boxmenu-menu .menu-container {
@@ -929,12 +929,12 @@ button {
 }
 .boxmenu-menu .menu-item-button a {
   text-decoration: none;
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   padding: 14px;
 }
 .boxmenu-menu .menu-item-button a:hover {
-  background-color: #424242;
+  background-color: #333333;
   color: #fff;
 }
 .boxmenu-menu .menu-item-button a.visited {
@@ -1005,7 +1005,7 @@ b {
   font-weight: 700;
 }
 select {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -1014,7 +1014,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #26292a;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -1023,7 +1023,7 @@ body {
   font-family: Arial, sans-serif;
 }
 .instruction-text {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -1031,7 +1031,7 @@ body {
 .button-text {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
@@ -1044,7 +1044,7 @@ body {
 .menu-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 300;
   line-height: 1.2;
@@ -1057,7 +1057,7 @@ body {
 .menu-item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1070,7 +1070,7 @@ body {
 .page-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 300;
   line-height: 1.2;
@@ -1083,7 +1083,7 @@ body {
 .page-body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.4;
@@ -1096,7 +1096,7 @@ body {
 .article-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1109,7 +1109,7 @@ body {
 .block-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1122,7 +1122,7 @@ body {
 .component-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1135,7 +1135,7 @@ body {
 .notify-popup-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.2;
@@ -1148,7 +1148,7 @@ body {
 .item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -1161,7 +1161,7 @@ body {
 .sub-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -1175,7 +1175,7 @@ body {
   line-height: 20.4px;
 }
 .drawer-title {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -1328,7 +1328,7 @@ body {
 .magazine .article-title-inner > span,
 .magazine .block-title-inner > span,
 .magazine .component-title-inner > span {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   padding: 12px 0 !important;
   line-height: 140% !important;
@@ -1388,7 +1388,7 @@ body {
   left: 0;
   width: 20px;
   z-index: 1;
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .magazine .page-title-inner:before,
 .palette-01 .magazine .article-title-inner:before,
@@ -1970,11 +1970,11 @@ body {
 .accordion-component .accordion-item-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2015,7 +2015,7 @@ body {
   color: #ffffff;
 }
 .accordion-component .accordion-item-title.selected {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01 .accordion-component .accordion-item-title.selected {
@@ -2040,7 +2040,7 @@ body {
   color: #ffffff;
 }
 .no-touch .accordion-component .accordion-item-title:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -2073,7 +2073,7 @@ body {
   transition: color 0.2s ease-in;
 }
 .no-touch .accordion-component .accordion-item-title:hover.visited {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01.no-touch .accordion-component .accordion-item-title:hover.visited {
@@ -2098,7 +2098,7 @@ body {
   color: #ffffff;
 }
 .no-touch .accordion-component .accordion-item-title:hover.selected {
-  background-color: #287776;
+  background-color: #006489;
 }
 .palette-01.no-touch .accordion-component .accordion-item-title:hover.selected {
   background-color: #287777;
@@ -2119,7 +2119,7 @@ body {
   background-color: #cc310f;
 }
 .accordion-component .accordion-item-body {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01 .accordion-component .accordion-item-body {
@@ -2503,7 +2503,7 @@ body {
   }
 }
 .article .article-title {
-  color: #44c1bf;
+  color: #00aeef;
   margin-bottom: 0;
 }
 .palette-01 .article .article-title {
@@ -2532,7 +2532,7 @@ body {
   text-decoration: underline;
 }
 .article .article-instruction {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -2557,7 +2557,7 @@ body {
 .article-reveal-close-button .article-reveal-open-button-icon,
 .article-reveal-open-button .article-reveal-close-button-icon,
 .article-reveal-close-button .article-reveal-close-button-icon {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .article-reveal-open-button .article-reveal-open-button-icon,
@@ -2600,7 +2600,7 @@ body {
 .no-touch .article-reveal-close-button:hover .article-reveal-open-button-icon,
 .no-touch .article-reveal-open-button:hover .article-reveal-close-button-icon,
 .no-touch .article-reveal-close-button:hover .article-reveal-close-button-icon {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -2705,7 +2705,7 @@ body {
   }
 }
 .article-block-slider-enabled .item-button-arrow {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .article-block-slider-enabled .item-button-arrow {
   background-color: #45c0c0;
@@ -2729,7 +2729,7 @@ body {
   color: #ffffff;
 }
 .no-touch .article-block-slider-enabled .item-button-arrow:hover {
-  background-color: #287776;
+  background-color: #006489;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -2781,7 +2781,7 @@ body {
   color: #ffffff;
 }
 .no-touch .article-block-slider-enabled .item-button:hover .item-button-inner {
-  background-color: #287776;
+  background-color: #006489;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -2814,7 +2814,7 @@ body {
   color: #ffffff;
 }
 .article-block-slider-enabled .item-button-inner {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .article-block-slider-enabled .item-button-inner {
@@ -2886,7 +2886,7 @@ body {
   }
 }
 .block .block-title {
-  color: #44c1bf;
+  color: #00aeef;
   margin-bottom: 0;
 }
 .palette-01 .block .block-title {
@@ -2915,7 +2915,7 @@ body {
   text-decoration: underline;
 }
 .block .block-instruction {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -2933,12 +2933,12 @@ body {
 button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
-  background-color: #424242;
-  border: 0px solid #424242;
+  background-color: #333333;
+  border: 0px solid #333333;
   color: #ffffff;
   display: inline-block;
   min-height: 55px;
@@ -2954,7 +2954,7 @@ button {
 }
 .no-touch .button:hover,
 .no-touch button:hover {
-  background-color: #0f0f0f;
+  background-color: #000000;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -3037,14 +3037,14 @@ button[disabled="disabled"] {
   float: right;
 }
 .buttons .buttons-display {
-  border: 0px solid #424242;
+  border: 0px solid #333333;
   background-color: #37474f;
   border-top: none;
   color: #ffffff;
   position: relative;
 }
 .buttons .buttons-marking-icon {
-  border: 0px solid #424242;
+  border: 0px solid #333333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   color: #ffffff;
@@ -3085,7 +3085,7 @@ button[disabled="disabled"] {
   text-align: center;
 }
 .component .component-title {
-  color: #44c1bf;
+  color: #00aeef;
   margin-bottom: 0;
 }
 .palette-01 .component .component-title {
@@ -3114,7 +3114,7 @@ button[disabled="disabled"] {
   text-decoration: underline;
 }
 .component .component-instruction {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -3203,7 +3203,7 @@ button[disabled="disabled"] {
   transition: background-color 0.2s ease-in;
 }
 .no-touch .drawer .drawer-toolbar .drawer-close-button:hover .icon {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3248,7 +3248,7 @@ button[disabled="disabled"] {
   transition: background-color 0.2s ease-in;
 }
 .no-touch .drawer .drawer-toolbar .drawer-back-button:hover .icon {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3265,7 +3265,7 @@ button[disabled="disabled"] {
   border-right: 5px solid #0d1113;
 }
 .drawer .drawer-item .drawer-item-title {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -3291,7 +3291,7 @@ button[disabled="disabled"] {
   width: auto;
 }
 .no-touch .drawer .drawer-item .drawer-item-open:hover {
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -3384,7 +3384,7 @@ html.accessibility.touch .narrative-control-right.focus {
   vertical-align: bottom;
 }
 .gmcq-component .gmcq-item label .gmcq-answer-icon {
-  color: #44c1bf;
+  color: #00aeef;
 }
 .palette-01 .gmcq-component .gmcq-item label .gmcq-answer-icon {
   color: #45c0c0;
@@ -3424,7 +3424,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .gmcq-component .gmcq-item label.selected {
   background-color: transparent;
-  color: #287776;
+  color: #006489;
 }
 .palette-01 .gmcq-component .gmcq-item label.selected {
   color: #287777;
@@ -3471,7 +3471,7 @@ html.accessibility.touch .narrative-control-right.focus {
   animation-timing-function: ease-in-out;
 }
 .gmcq-component .gmcq-item label.selected .gmcq-item-icon {
-  color: #287776;
+  color: #006489;
 }
 .palette-01 .gmcq-component .gmcq-item label.selected .gmcq-item-icon {
   color: #287777;
@@ -3507,7 +3507,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #727272;
 }
 .gmcq-component .gmcq-item-inner {
-  color: #44c1bf;
+  color: #00aeef;
   margin-left: 48px;
   padding-bottom: 20px;
   padding-left: 0;
@@ -3605,7 +3605,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover {
   background-color: transparent;
-  color: #287776;
+  color: #006489;
   -webkit-transition: color 0.2s ease-in;
   -moz-transition: color 0.2s ease-in;
   -ms-transition: color 0.2s ease-in;
@@ -3630,7 +3630,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #cc310f;
 }
 .no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover .gmcq-item-icon {
-  color: #287776;
+  color: #006489;
 }
 .palette-01.no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover .gmcq-item-icon {
   color: #287777;
@@ -3651,7 +3651,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #cc310f;
 }
 .no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover .gmcq-item-inner {
-  color: #287776;
+  color: #006489;
 }
 .palette-01.no-touch .gmcq-component .gmcq-widget:not(.disabled) .gmcq-item label:hover .gmcq-item-inner {
   color: #287777;
@@ -3676,7 +3676,7 @@ html.accessibility.touch .narrative-control-right.focus {
   margin: auto;
 }
 .hint-extension .hint-extension-button {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .hint-extension .hint-extension-button {
@@ -3698,7 +3698,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .hint-extension .hint-extension-button:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -3746,7 +3746,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #727272;
 }
 .hotgraphic-component .hotgraphic-graphic-pin-icon {
-  color: #44c1bf;
+  color: #00aeef;
 }
 .palette-01 .hotgraphic-component .hotgraphic-graphic-pin-icon {
   color: #45c0c0;
@@ -3768,7 +3768,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .hotgraphic-component .hotgraphic-popup {
   background-color: #ffffff;
-  border: 3px #44c1bf solid;
+  border: 3px #00aeef solid;
   color: #26292a;
 }
 .palette-01 .hotgraphic-component .hotgraphic-popup {
@@ -3790,7 +3790,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 3px #f26c4f solid;
 }
 .hotgraphic-component .hotgraphic-popup-toolbar {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   padding: 20px 20px 20px 20px;
 }
 .palette-01 .hotgraphic-component .hotgraphic-popup-toolbar {
@@ -3812,7 +3812,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .hotgraphic-component .hotgraphic-popup-nav {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .hotgraphic-component .hotgraphic-popup-nav {
   background-color: #45c0c0;
@@ -3849,7 +3849,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .hotgraphic-component .hotgraphic-content-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -3861,7 +3861,7 @@ html.accessibility.touch .narrative-control-right.focus {
   }
 }
 .hotgraphic-component .hotgraphic-popup-toolbar {
-  border-bottom: 2px #44c1bf solid;
+  border-bottom: 2px #00aeef solid;
   height: auto;
   padding: 0;
 }
@@ -3927,7 +3927,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #ffffff;
 }
 .no-touch .hotgraphic-component .hotgraphic-graphic-pin .hotgraphic-graphic-pin-icon:hover {
-  color: #287776;
+  color: #006489;
   -webkit-transition: color 0.2s ease-in;
   -moz-transition: color 0.2s ease-in;
   -ms-transition: color 0.2s ease-in;
@@ -3966,7 +3966,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-radius: 50%;
 }
 .no-touch .hotgraphic-component .hotgraphic-popup-controls:not(.disabled):hover {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -3981,7 +3981,7 @@ html.accessibility.touch .narrative-control-right.focus {
   transition: color 0.2s ease-in;
 }
 .no-touch .hotgraphic-component .hotgraphic-popup-done:hover .hotgraphic-popup-close {
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -4012,7 +4012,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-radius: 50%;
 }
 .no-touch .hotgrid-component .hotgrid-grid-item:hover .hotgrid-item-states-css.hotgrid-item-image {
-  border-color: #44c1bf;
+  border-color: #00aeef;
   -webkit-transition: border-color 0.2s ease-in;
   -moz-transition: border-color 0.2s ease-in;
   -ms-transition: border-color 0.2s ease-in;
@@ -4376,7 +4376,7 @@ html.accessibility.touch .narrative-control-right.focus {
   text-align: center;
 }
 .no-opacity .loading {
-  background-image: url('assets/transparency-light.png');
+  background-image: url("assets/transparency-light.png");
 }
 .loading .loader-gif {
   position: absolute;
@@ -4388,7 +4388,7 @@ html.accessibility.touch .narrative-control-right.focus {
   width: 200px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -4435,11 +4435,11 @@ html.accessibility.touch .narrative-control-right.focus {
 .matching-component .matching-item-title {
   margin-bottom: 0;
   padding: 20px;
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
 }
 .matching-component .matching-select-container {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .matching-component .matching-select-container {
   background-color: #45c0c0;
@@ -4470,7 +4470,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .matching-component .select2-container .select2-selection--single {
   padding: 20px 0 20px 0;
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   border: none!important;
   /* override select2 less */
@@ -4494,7 +4494,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .matching-component .select2-container .select2-selection--single:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01.no-touch .matching-component .select2-container .select2-selection--single:hover {
@@ -4528,7 +4528,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .no-touch .matching-select-container:hover {
   color: #ffffff;
-  background-color: #287776;
+  background-color: #006489;
 }
 .palette-01.no-touch .matching-select-container:hover {
   background-color: #287777;
@@ -4553,7 +4553,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .select2-container--default span.select2-dropdown,
 .dir-rtl .select2-container--default span.select2-dropdown {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   border: none;
 }
@@ -4585,7 +4585,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .dir-rtl .select2-container--default li.select2-results__option--highlighted[aria-selected],
 .select2-container--default li.select2-results__option[aria-selected=true],
 .dir-rtl .select2-container--default li.select2-results__option[aria-selected=true] {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01.select2-container--default li.select2-results__option--highlighted[aria-selected],
@@ -4638,7 +4638,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #82ca9c;
 }
 .mcq-component .mcq-item {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   position: relative;
 }
 .palette-01 .mcq-component .mcq-item {
@@ -4660,7 +4660,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .mcq-component .mcq-item label {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   cursor: pointer;
   display: block;
@@ -4693,7 +4693,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 3px solid #ffffff;
 }
 .mcq-component .mcq-item label.selected {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01 .mcq-component .mcq-item label.selected {
@@ -4773,7 +4773,7 @@ html.accessibility.touch .narrative-control-right.focus {
   right: 20px;
 }
 .mcq-widget.disabled .mcq-item label.selected.disabled {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   cursor: default;
 }
@@ -4808,7 +4808,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #f26c4f;
 }
 .no-touch .mcq-widget:not(.disabled) .mcq-item label:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -4875,7 +4875,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .narrative-component .narrative-content-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
@@ -4887,7 +4887,7 @@ html.accessibility.touch .narrative-control-right.focus {
   }
 }
 .narrative-component .narrative-content {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .narrative-component .narrative-content {
@@ -4913,7 +4913,7 @@ html.accessibility.touch .narrative-control-right.focus {
   text-decoration: underline;
 }
 .narrative-component .narrative-controls {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   display: block;
   height: 60px;
   margin-top: -48px;
@@ -4948,7 +4948,7 @@ html.accessibility.touch .narrative-control-right.focus {
   margin: 16px;
 }
 .no-touch .narrative-component .narrative-controls:hover {
-  background-color: #287776;
+  background-color: #006489;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -4996,7 +4996,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: inherit;
 }
 .narrative-component .narrative-progress.selected {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .narrative-component .narrative-progress.selected {
   background-color: #45c0c0;
@@ -5019,11 +5019,11 @@ html.accessibility.touch .narrative-control-right.focus {
 .narrative-component .narrative-strapline-title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   float: left;
   position: relative;
@@ -5068,7 +5068,7 @@ html.accessibility.touch .narrative-control-right.focus {
   left: 0;
 }
 .no-touch .narrative-component .narrative-strapline-title:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5135,7 +5135,7 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 20px;
 }
 .no-touch .navigation .icon:hover {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5150,11 +5150,11 @@ html.accessibility.touch .narrative-control-right.focus {
   animation-timing-function: ease-in-out;
 }
 .notify .notify-popup.notify-type-prompt {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .notify .notify-popup.notify-type-popup {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .notify .notify-popup-inner {
@@ -5220,11 +5220,11 @@ html.accessibility.touch .narrative-control-right.focus {
 .notify .notify-popup-button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
-  background-color: #424242;
+  background-color: #333333;
   border: none;
   color: #ffffff;
   display: inline-block;
@@ -5238,7 +5238,7 @@ html.accessibility.touch .narrative-control-right.focus {
   }
 }
 .no-touch .notify .notify-popup-button:hover {
-  background-color: #0f0f0f;
+  background-color: #000000;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5258,7 +5258,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .notify .notify-popup-done:hover {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5278,10 +5278,10 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
 .no-opacity .notify .notify-shadow {
-  background-image: url('assets/transparency-light.png');
+  background-image: url("assets/transparency-light.png");
 }
 .notify-push {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   border: 1px solid #ffffff;
   border-radius: 3px;
   color: #fff;
@@ -5340,7 +5340,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .notify-push-close .icon:hover {
-  background-color: #424242;
+  background-color: #333333;
 }
 .page {
   background-color: #ffffff;
@@ -5405,7 +5405,7 @@ html.accessibility.touch .narrative-control-right.focus {
   text-decoration: underline;
 }
 .page .page-instruction {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -5452,7 +5452,7 @@ html.accessibility.touch .narrative-control-right.focus {
   height: 8px;
 }
 .page-level-progress-navigation .page-level-progress-navigation-bar {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   left: 0;
   -webkit-transition: width 0.6s ease-in;
   -moz-transition: width 0.6s ease-in;
@@ -5490,7 +5490,7 @@ html.accessibility.touch .narrative-control-right.focus {
   right: 9px;
 }
 .no-touch .page-level-progress-navigation.base:hover {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5500,7 +5500,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 2px solid #26292a;
 }
 .no-touch .page-level-progress-navigation.base:hover .page-level-progress-navigation-bar {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01.no-touch .page-level-progress-navigation.base:hover .page-level-progress-navigation-bar {
   background-color: #45c0c0;
@@ -5537,7 +5537,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title:hover {
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5568,7 +5568,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border: 1px solid #ffffff;
 }
 .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title .page-level-progress-indicator-complete .page-level-progress-indicator-bar {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title .page-level-progress-indicator-complete .page-level-progress-indicator-bar {
   background-color: #45c0c0;
@@ -5589,7 +5589,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .drawer .page-level-progress .page-level-progress-item .page-level-progress-item-title:hover .page-level-progress-indicator-complete .page-level-progress-indicator-bar {
-  background-color: #349e9c;
+  background-color: #0089bc;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
@@ -5643,7 +5643,7 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 15px 0px;
 }
 .resources .resources-filter button.selected {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .resources .resources-filter button.selected {
@@ -5665,7 +5665,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .resources .resources-filter button:hover {
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5676,7 +5676,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-bottom: 1px solid #2d3940;
 }
 .search-extension .search-title {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -5698,7 +5698,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .no-touch .search-extension .result-title:hover {
-  background-color: #424242;
+  background-color: #333333;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5715,7 +5715,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
 .no-opacity .shadow {
-  background-image: url('assets/transparency-light.png');
+  background-image: url("assets/transparency-light.png");
 }
 .slider-component .slider-scaler-wrapper .slider-scaler,
 .confidenceSlider-component .slider-scaler-wrapper .slider-scaler {
@@ -5726,7 +5726,7 @@ html.accessibility.touch .narrative-control-right.focus {
 .slider-component .slider-scale-marker,
 .confidenceSlider-component .slider-scale-marker {
   color: #ffffff;
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .slider-component .slider-model-answer,
 .palette-01 .confidenceSlider-component .slider-model-answer,
@@ -5769,7 +5769,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #26292a;
 }
 .slider-widget .slider-holder .rangeslider__handle {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .palette-01 .slider-widget .slider-holder .rangeslider__handle {
   background-color: #45c0c0;
@@ -5790,7 +5790,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #f26c4f;
 }
 .no-touch .slider-widget .slider-holder .rangeslider__handle:hover {
-  background-color: #287776;
+  background-color: #006489;
 }
 .palette-01.no-touch .slider-widget .slider-holder .rangeslider__handle:hover {
   background-color: #287777;
@@ -5811,7 +5811,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .slider-widget .slider-holder .rangeslider__fill {
-  background-color: #44c1bf;
+  background-color: #00aeef;
 }
 .slider-widget .slider-holder .rangeslider {
   background-color: #ffffff;
@@ -5841,7 +5841,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #727272;
 }
 .tabs-component .tabs-navigation-item-inner {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
   padding: 15px;
 }
@@ -5868,7 +5868,7 @@ html.accessibility.touch .narrative-control-right.focus {
   color: #ffffff;
 }
 .tabs-component .tabs-navigation-item-inner.selected {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01 .tabs-component .tabs-navigation-item-inner.selected {
@@ -5890,7 +5890,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .tabs-component .tabs-navigation-item-inner.selected:after {
-  border-left-color: #287776;
+  border-left-color: #006489;
 }
 .palette-01 .tabs-component .tabs-navigation-item-inner.selected:after {
   border-left-color: #287777;
@@ -5911,7 +5911,7 @@ html.accessibility.touch .narrative-control-right.focus {
   border-left-color: #cc310f;
 }
 .no-touch .tabs-component .tabs-navigation-item-inner:hover {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
@@ -5937,7 +5937,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .no-touch .tabs-component .tabs-navigation-item-inner:hover.visited {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01.no-touch .tabs-component .tabs-navigation-item-inner:hover.visited {
@@ -5959,7 +5959,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .no-touch .tabs-component .tabs-navigation-item-inner:hover.selected {
-  background-color: #287776;
+  background-color: #006489;
   color: #ffffff;
 }
 .palette-01.no-touch .tabs-component .tabs-navigation-item-inner:hover.selected {
@@ -5981,7 +5981,7 @@ html.accessibility.touch .narrative-control-right.focus {
   background-color: #cc310f;
 }
 .tabs-component .tabs-navigation-item-inner:after {
-  border-left-color: #44c1bf;
+  border-left-color: #00aeef;
   border-width: 10.5px 0 10.5px 13px;
   margin-top: -8.25px;
   right: -13px;
@@ -6006,7 +6006,7 @@ html.accessibility.touch .narrative-control-right.focus {
 }
 .tabs-component .tabs-content-items {
   background: #ffffff;
-  border: 1px #44c1bf solid;
+  border: 1px #00aeef solid;
   max-height: 400px;
   min-height: 400px;
 }
@@ -6037,8 +6037,8 @@ html.accessibility.touch .narrative-control-right.focus {
   }
 }
 .textinput-item {
-  background-color: #44c1bf;
-  border: 3px #44c1bf solid;
+  background-color: #00aeef;
+  border: 3px #00aeef solid;
   margin-bottom: 2px;
   position: relative;
 }
@@ -6149,7 +6149,7 @@ html.accessibility.touch .narrative-control-right.focus {
   text-align: left;
 }
 .primary-divider-block {
-  background-color: #44c1bf;
+  background-color: #00aeef;
   color: #ffffff;
 }
 .palette-01 .primary-divider-block {
@@ -6195,28 +6195,28 @@ html.accessibility.touch .narrative-control-right.focus {
   padding: 0;
 }
 .trickle-button-component.trickle-round-arrow button {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   transition: none;
 }
 .no-touch .trickle-button-component.trickle-round-arrow button:hover {
-  background-color: #0f0f0f;
+  background-color: #000000;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
 }
 .trickle-button-component.trickle-full-width.trickle-round-arrow .trickle-button-inner.locking button {
-  background-color: #424242;
+  background-color: #333333;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   transition: none;
 }
 .no-touch .trickle-button-component.trickle-full-width.trickle-round-arrow .trickle-button-inner.locking button:hover {
-  background-color: #0f0f0f;
+  background-color: #000000;
   -webkit-transition: background-color 0.2s ease-in;
   -moz-transition: background-color 0.2s ease-in;
   -ms-transition: background-color 0.2s ease-in;
