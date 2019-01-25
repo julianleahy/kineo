@@ -966,6 +966,14 @@ button {
     margin: 0;
   }
 }
+.hidden-lge {
+  display: none;
+}
+@media (max-width: 760px) {
+  .hidden-lge {
+    display: block;
+  }
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
